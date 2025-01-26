@@ -22,4 +22,5 @@ A modern, responsive, and visually captivating **Tea House Website** designed to
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/yourusername/tea-house-with-tailwind.git
+git clone https://github.com/MRaysa/Tea-house-with-tailwind.git
+
