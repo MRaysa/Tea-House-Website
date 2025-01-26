@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Fontawesome cdn -->
+    <script src="https://kit.fontawesome.com/bbfc4be646.js" crossorigin="anonymous"></script>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                },
+            },
+        }
+    </script>
+    <title>Tea House</title>
+    <style>
+        .monrope {
+            font-family: "Manrope", serif;
+        }
+    </style>
+</head>
+
+<body class="monrope">
+    <!-- Header Content -->
+    <header class="monrope">
+        <section class="max-w-screen-xl mx-auto px-6 sm:px-10 lg:px-16">
+            <div class="flex flex-col-reverse md:flex-row items-center pt-10 mb-20 gap-10 md:gap-16">
+                <!-- Text Content -->
+                <div class="order-2 md:order-1 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold">
+                        It's good <br />
+                        tea time at The <br />
+                        Tea House
+                    </h1>
+                    <p class="text-gray-500 mt-4 md:w-3/4 mx-auto md:mx-0">
+                        Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button
+                        class="bg-gradient-to-r from-orange-500 to-red-500 px-6 py-3 rounded-lg text-white font-bold mt-6 flex items-center justify-center gap-3 mx-auto md:mx-0">
+                        Explore More
+                        <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+                    </button>
+                </div>
+
+                <!-- Image Content -->
+                <div class="relative order-1 md:order-2 w-full md:w-1/2 flex justify-center">
+                    <!-- Single Image -->
+                    <div class="relative">
+                        <img class="w-full max-w-xs sm:max-w-md mx-auto md:mx-0" src="./tea-house-resources/images/banner.png" alt="Tea House Banner" />
+                        <!-- Card -->
+                        <div
+                            class="absolute flex items-center bg-white shadow-lg px-4 py-3 sm:px-6 sm:py-4 rounded-xl bottom-4 left-[5%] transform translate-x-0 md:bottom-4 md:left-[10%] md:translate-x-0">
+                            <!-- Icon -->
+                            <i class="fa-solid fa-star text-yellow-400 text-2xl sm:text-3xl"></i>
+                            <!-- Text -->
+                            <div class="ml-3">
+                                <h2 class="text-lg sm:text-2xl font-bold text-gray-800">5.00</h2>
+                                <p class="text-gray-500 text-xs sm:text-sm">Trust Pilot Ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Main Content Placeholder -->
+    </main>
+
+    <footer>
+        <!-- Footer Content Placeholder -->
+    </footer>
+</body>
+
+</html>
